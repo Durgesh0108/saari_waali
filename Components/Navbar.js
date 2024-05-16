@@ -490,7 +490,7 @@ export default function Navbar() {
                                     className="link text-secondary duration-300
                                                               cursor-pointer"
                                   >
-                                    Boy's Toy
+                                    Boys Toy
                                   </a>
                                 </li>
                                 <li>
@@ -2125,7 +2125,7 @@ export default function Navbar() {
                                   href="shop-breadcrumb1.html"
                                   className="link text-secondary duration-300 cursor-pointer"
                                 >
-                                  Boy's Toy
+                                  Boys Toy
                                 </a>
                               </li>
                               <li>
@@ -2745,10 +2745,10 @@ export default function Navbar() {
         </div>
       </div>
       {/* Slider */}
-      <div className="slider-block style-one bg-linear xl:h-[860px] lg:h-[800px] md:h-[580px] sm:h-[500px] h-[350px] max-[420px]:h-[320px] w-full">
+      <div className="slider-block  style-one bg-linear xl:h-[860px] lg:h-[800px] md:h-[580px] sm:h-[500px] h-[350px] max-[420px]:h-[320px] w-full">
         <div className="slider-main h-full w-full">
           <div className="swiper swiper-slider h-full relative">
-            <div className="swiper-wrapper">
+            <div className="swiper-wrapper w-full flex">
               <div className="swiper-slide">
                 <div className="slider-item h-full w-full relative">
                   <div className="container w-full h-full flex items-center relative">

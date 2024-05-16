@@ -6,7 +6,7 @@ export default function TabSection() {
       <div className="what-new-block filter-product-block md:pt-20 pt-10">
         <div className="container">
           <div className="heading flex flex-col items-center text-center">
-            <div className="heading3">What's new</div>
+            <div className="heading3">Whats new</div>
             <div className="menu-tab bg-surface rounded-2xl mt-6">
               <div className="menu flex items-center gap-2 p-1">
                 <div className="indicator absolute top-1 bottom-1 bg-white rounded-full shadow-md duration-300"></div>
