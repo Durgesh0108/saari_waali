@@ -1,4 +1,4 @@
-
+import { BadgeCheck, Package2, PhoneCall, Truck } from "lucide-react";
 import React from "react";
 
 const Servicesection = () => {
@@ -8,7 +8,7 @@ const Servicesection = () => {
         <div className="container">
           <div className="list-benefit grid items-start lg:grid-cols-4 grid-cols-2 gap-[30px]">
             <div className="benefit-item flex flex-col items-center justify-center">
-              {/* <PhoneCall /> */}
+              <PhoneCall className="h-6 w-16" />
               <div className="heading6 text-center mt-5">
                 24/7 Customer Service
               </div>
@@ -18,7 +18,7 @@ const Servicesection = () => {
               </div>
             </div>
             <div className="benefit-item flex flex-col items-center justify-center">
-              <i className="icon-return lg:text-7xl text-5xl" />
+              <Package2 />
               <div className="heading6 text-center mt-5">14-Day Money Back</div>
               <div className="caption1 text-secondary text-center mt-3">
                 If youre not satisfied with your purchase, simply return it
@@ -26,7 +26,7 @@ const Servicesection = () => {
               </div>
             </div>
             <div className="benefit-item flex flex-col items-center justify-center">
-              <i className="icon-guarantee lg:text-7xl text-5xl" />
+              <BadgeCheck />
               <div className="heading6 text-center mt-5">Our Guarantee</div>
               <div className="caption1 text-secondary text-center mt-3">
                 {" "}
@@ -35,7 +35,7 @@ const Servicesection = () => {
               </div>
             </div>
             <div className="benefit-item flex flex-col items-center justify-center">
-              <i className="icon-delivery-truck lg:text-7xl text-5xl" />
+              <Truck />
               <div className="heading6 text-center mt-5">
                 Shipping worldwide
               </div>
