@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="dist/output-scss.css" />
         <link rel="stylesheet" href="dist/output-tailwind.css" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className} >{children}</body>
       <Script src="assets/js/phosphor-icons.js" />
       <Script src="assets/js/swiper-bundle.min.js" />
       <Script src="assets/js/main.js" />
