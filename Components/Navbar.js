@@ -2859,16 +2859,7 @@ export default function Navbar() {
           </SwiperSlide>
         </Swiper>
       </div>
-      {/* <div className="slider-block  style-one bg-linear xl:h-[860px] lg:h-[800px] md:h-[580px] sm:h-[500px] h-[350px] max-[420px]:h-[320px] w-full">
-        <div className="slider-main h-full w-full">
-          <div className="swiper swiper-slider h-full relative">
-            <div className="swiper-wrapper w-full flex">
-              
-            </div>
-            <div className="swiper-pagination" />
-          </div>
-        </div>
-      </div> */}
+      
     </div>
   );
 }

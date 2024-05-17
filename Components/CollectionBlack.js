@@ -1,5 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import Swimwear from "@/public/assets/images/collection/swimwear.png";
 import top from "@/public/assets/images/collection/top.png";
@@ -13,39 +19,57 @@ export default function CollectionBlack() {
       </div>
       <div className="list-collection relative section-swiper-navigation md:mt-10 mt-6 sm:px-5 px-4">
         <div className="swiper-button-prev lg:left-10 left-6" />
-        <div className="swiper swiper-collection h-full relative">
-          <div className="swiper-wrapper border-2 border-black w-full grid grid-cols-4">
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={30}
+          loop={true}
+          pagination={{
+            dynamicBullets: true,
+            clickable: true,
+          }}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          // modules={[Pagination, Navigation, Autoplay]}
+          className="w-full h-full"
+        >
+          <SwiperSlide className="h-full ">
             <div className="swiper-slide">
               <a
                 href="shop-breadcrumb1.html"
                 className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer"
               >
                 <div className="bg-img">
-                  <Image src={Swimwear} alt="swimwear" />
-                  {/* <img
+                  {/* <Image src={Swimwear} alt="swimwear" /> */}
+                  <img
                     src="assets/images/collection/swimwear.png"
                     alt="swimwear"
-                  /> */}
+                  />
                 </div>
                 <div className="collection-name heading5 text-center sm:bottom-8 bottom-4 lg:w-[200px] md:w-[160px] w-[100px] md:py-3 py-1.5 bg-white rounded-xl duration-500">
                   swimwear
                 </div>
               </a>
             </div>
+          </SwiperSlide>
+          <SwiperSlide className="h-full">
             <div className="swiper-slide">
               <a
                 href="shop-breadcrumb1.html"
                 className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer"
               >
                 <div className="bg-img">
-                  <Image src={top} alt="top" />
-                  {/* <img src="assets/images/collection/top.png" alt="top" /> */}
+                  {/* <Image src={top} alt="top" /> */}
+                  <img src="assets/images/collection/top.png" alt="top" />
                 </div>
                 <div className="collection-name heading5 text-center sm:bottom-8 bottom-4 lg:w-[200px] md:w-[160px] w-[100px] md:py-3 py-1.5 bg-white rounded-xl duration-500">
                   top
                 </div>
               </a>
             </div>
+          </SwiperSlide>
+          <SwiperSlide className="h-full">
             <div className="swiper-slide">
               <a
                 href="shop-breadcrumb1.html"
@@ -59,6 +83,8 @@ export default function CollectionBlack() {
                 </div>
               </a>
             </div>
+          </SwiperSlide>
+          <SwiperSlide>
             <div className="swiper-slide">
               <a
                 href="shop-breadcrumb1.html"
@@ -75,6 +101,8 @@ export default function CollectionBlack() {
                 </div>
               </a>
             </div>
+          </SwiperSlide>
+          <SwiperSlide>
             <div className="swiper-slide">
               <a
                 href="shop-breadcrumb1.html"
@@ -91,6 +119,8 @@ export default function CollectionBlack() {
                 </div>
               </a>
             </div>
+          </SwiperSlide>
+          <SwiperSlide>
             <div className="swiper-slide">
               <a
                 href="shop-breadcrumb1.html"
@@ -109,8 +139,9 @@ export default function CollectionBlack() {
                 </div>
               </a>
             </div>
-          </div>
-        </div>
+          </SwiperSlide>
+        </Swiper>
+
         <div className="swiper-button-next lg:right-10 right-6" />
       </div>
     </div>
