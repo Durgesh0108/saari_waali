@@ -23,10 +23,10 @@ const Testimonials = () => {
                         Variety of Styles!
                       </div>
                       <div className="desc mt-2">
-                        "Fantastic shop! Great selection, fair prices, and
+                        Fantastic shop! Great selection, fair prices, and
                         friendly staff. Highly recommended. The quality of the
                         products is exceptional, and the prices are very
-                        reasonable!"
+                        reasonable!
                       </div>
                       <div className="text-button name mt-4">Lisa K.</div>
                       <div className="caption2 date text-secondary2 mt-1">
@@ -49,9 +49,9 @@ const Testimonials = () => {
                         Quality of Clothing!
                       </div>
                       <div className="desc mt-2">
-                        "Anvouge's fashion collection is a game-changer! Their
+                        Anvouges fashion collection is a game-changer! Their
                         unique and trendy pieces have completely transformed my
-                        style. It's comfortable, stylish, and always on-trend."
+                        style. Its comfortable, stylish, and always on-trend.
                       </div>
                       <div className="text-button name mt-4">Elizabeth A.</div>
                       <div className="caption2 date text-secondary2 mt-1">
@@ -100,10 +100,9 @@ const Testimonials = () => {
                         Quality of Clothing!
                       </div>
                       <div className="desc mt-2">
-                        "I cant get enough of Anvouge's high-quality clothing.
-                        Its comfortable, stylish, and always on-trend. The
-                        products are high-quality and the customer service is
-                        excellent."
+                        I cant get enough of Anvouges high-quality clothing. Its
+                        comfortable, stylish, and always on-trend. The products
+                        are high-quality and the customer service is excellent.
                       </div>
                       <div className="text-button name mt-4">Emily G.</div>
                       <div className="caption2 date text-secondary2 mt-1">
@@ -126,10 +125,10 @@ const Testimonials = () => {
                         Customer Service!
                       </div>
                       <div className="desc mt-2">
-                        "I love this shop! The products are always top-quality,
+                        I love this shop! The products are always top-quality,
                         and the staff is incredibly friendly and helpful. They
-                        go out of their way to make sure that I'm satisfied my
-                        purchase."
+                        go out of their way to make sure that Im satisfied my
+                        purchase.
                       </div>
                       <div className="text-button name mt-4">Carolina C.</div>
                       <div className="caption2 date text-secondary2 mt-1">

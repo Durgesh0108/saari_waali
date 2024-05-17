@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +19,9 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="dist/output-tailwind.css" />
       </head>
       <body className={inter.className}>{children}</body>
-      <script src="assets/js/phosphor-icons.js"></script>
-      <script src="assets/js/swiper-bundle.min.js"></script>
-      <script src="assets/js/main.js"></script>
+      <Script src="assets/js/phosphor-icons.js" />
+      <Script src="assets/js/swiper-bundle.min.js" />
+      <Script src="assets/js/main.js" />
     </html>
   );
 }

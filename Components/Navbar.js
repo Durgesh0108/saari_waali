@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Navbar() {
@@ -1542,20 +1543,20 @@ export default function Navbar() {
                     <div className="sub-menu py-3 px-5 -left-10 absolute bg-white rounded-b-xl">
                       <ul className="w-full">
                         <li>
-                          <a
-                            href="about.html"
+                          <Link
+                            href={"/Aboutus"}
                             className="link text-secondary duration-300"
                           >
                             About Us
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
-                            href="contact.html"
+                          <Link
+                            href="/ContactUs"
                             className="link text-secondary duration-300"
                           >
                             Contact Us
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <a
@@ -2679,12 +2680,12 @@ export default function Navbar() {
                       <div className="list-nav-item w-full pt-2 pb-6">
                         <ul className="w-full">
                           <li>
-                            <a
-                              href="about.html"
-                              className="link text-secondary duration-300"
+                            <Link
+                              href={"/Aboutus"}
+                              // className="link text-secondary duration-300"
                             >
                               About Us
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a
