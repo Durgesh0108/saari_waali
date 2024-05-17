@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 const Tabsectionpart2 = () => {
   return (
@@ -69,7 +70,7 @@ const Tabsectionpart2 = () => {
                     delay: 2000,
                     disableOnInteraction: false,
                   }}
-                  // modules={[Pagination, Navigation, Autoplay]}
+                  modules={[Autoplay]}
                   className="w-full h-full"
                 >
                   <SwiperSlide className="h-full ">

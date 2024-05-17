@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaPinterestP,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -145,19 +152,24 @@ const Footer = () => {
                   </div>
                   <div className="list-social flex items-center gap-6 mt-4">
                     <a href="https://www.facebook.com/" target="_blank">
-                      <div className="icon-facebook text-2xl text-black" />
+                      {/* <div className="icon-facebook text-2xl text-black" /> */}
+                      <FaFacebookF className="text-lg" />
                     </a>
                     <a href="https://www.instagram.com/" target="_blank">
-                      <div className="icon-instagram text-2xl text-black" />
+                      {/* <div className="icon-instagram text-2xl text-black" /> */}
+                      <FaInstagram className="text-lg" />
                     </a>
                     <a href="https://www.twitter.com/" target="_blank">
-                      <div className="icon-twitter text-2xl text-black" />
+                      {/* <div className="icon-twitter text-2xl text-black" /> */}
+                      <FaTwitter className="text-lg" />
                     </a>
                     <a href="https://www.youtube.com/" target="_blank">
-                      <div className="icon-youtube text-2xl text-black" />
+                      {/* <div className="icon-youtube text-2xl text-black" /> */}
+                      <FaYoutube className="text-lg" />
                     </a>
                     <a href="https://www.pinterest.com/" target="_blank">
-                      <div className="icon-pinterest text-2xl text-black" />
+                      {/* <div className="icon-pinterest text-2xl text-black" /> */}
+                      <FaPinterestP className="text-lg" />
                     </a>
                   </div>
                 </div>

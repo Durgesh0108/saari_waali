@@ -7,6 +7,7 @@ import Header from "@/Components/Header";
 import Logoslider from "@/Components/Logoslider";
 import Navbar from "@/Components/Navbar";
 import Servicesection from "@/Components/Servicesection";
+import Slider from "@/Components/Slider";
 import TabSection from "@/Components/TabSection";
 import Tabsectionpart2 from "@/Components/Tabsectionpart2";
 import Testimonials from "@/Components/Testimonials";
@@ -16,7 +17,7 @@ export default function Home() {
   return (
     <>
       <div className="">
-        {/* <Navbar /> */}
+        <Slider />
         <TabSection />
         <CollectionBlack />
         <Tabsectionpart2 />
@@ -25,7 +26,6 @@ export default function Home() {
         <Testimonials />
         <Clientinsta />
         <Logoslider />
-        <Footer/>
       </div>
     </>
   );

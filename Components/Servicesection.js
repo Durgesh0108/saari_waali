@@ -8,7 +8,7 @@ const Servicesection = () => {
         <div className="container">
           <div className="list-benefit grid items-start lg:grid-cols-4 grid-cols-2 gap-[30px]">
             <div className="benefit-item flex flex-col items-center justify-center">
-              <PhoneCall className="h-6 w-16" />
+              <PhoneCall className="h-10 w-10" />
               <div className="heading6 text-center mt-5">
                 24/7 Customer Service
               </div>
@@ -18,7 +18,7 @@ const Servicesection = () => {
               </div>
             </div>
             <div className="benefit-item flex flex-col items-center justify-center">
-              <Package2 />
+              <Package2 className="h-10 w-10"  />
               <div className="heading6 text-center mt-5">14-Day Money Back</div>
               <div className="caption1 text-secondary text-center mt-3">
                 If youre not satisfied with your purchase, simply return it
@@ -26,7 +26,7 @@ const Servicesection = () => {
               </div>
             </div>
             <div className="benefit-item flex flex-col items-center justify-center">
-              <BadgeCheck />
+              <BadgeCheck className="h-10 w-10" />
               <div className="heading6 text-center mt-5">Our Guarantee</div>
               <div className="caption1 text-secondary text-center mt-3">
                 {" "}
@@ -35,7 +35,7 @@ const Servicesection = () => {
               </div>
             </div>
             <div className="benefit-item flex flex-col items-center justify-center">
-              <Truck />
+              <Truck className="h-10 w-10" />
               <div className="heading6 text-center mt-5">
                 Shipping worldwide
               </div>

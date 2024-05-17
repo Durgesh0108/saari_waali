@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import Swimwear from "@/public/assets/images/collection/swimwear.png";
 import top from "@/public/assets/images/collection/top.png";
@@ -31,7 +32,7 @@ export default function CollectionBlack() {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          // modules={[Pagination, Navigation, Autoplay]}
+          modules={[Autoplay]}
           className="w-full h-full"
         >
           <SwiperSlide className="h-full ">

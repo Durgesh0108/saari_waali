@@ -1,13 +1,6 @@
-"use client"
 
 import Link from "next/link";
 import React from "react";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -2754,111 +2747,6 @@ export default function Navbar() {
         </div>
       </div>
       {/* Slider */}
-      <div className=" slider-block  style-one bg-linear xl:h-[860px] lg:h-[800px] md:h-[580px] sm:h-[500px] h-[350px] max-[420px]:h-[320px] w-full ">
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={30}
-          loop={true}
-          pagination={{
-            dynamicBullets: true,
-            clickable: true,
-          }}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
-          // modules={[Pagination, Navigation, Autoplay]}
-          className="w-full h-full"
-        >
-          <SwiperSlide className="h-full ">
-            <div className="h-full ">
-              <div className="slider-item h-full w-full relative ">
-                <div className="container w-full h-full flex items-center relative ">
-                  <div className="text-content basis-1/2">
-                    <div className="text-sub-display">Sale! Up To 50% Off!</div>
-                    <div className="text-display md:mt-5 mt-2">
-                      Summer Sale Collections
-                    </div>
-                    <a
-                      href="shop-breadcrumb-img.html"
-                      className="button-main md:mt-8 mt-3"
-                    >
-                      Shop Now
-                    </a>
-                  </div>
-                  <div className="sub-img absolute sm:w-1/2 w-3/5 2xl:-right-[60px] -right-[16px] bottom-0">
-                    <Image
-                      src={"/assets/images/slider/bg1-1.png"}
-                      alt="bg1-1"
-                      width={1000}
-                      height={1}
-                      className="h-full w-full"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="h-full">
-            <div className="h-full ">
-              <div className="slider-item h-full w-full relative ">
-                <div className="container w-full h-full flex items-center relative ">
-                  <div className="text-content basis-1/2">
-                    <div className="text-sub-display">Sale! Up To 50% Off!</div>
-                    <div className="text-display md:mt-5 mt-2">
-                      Summer Sale Collections
-                    </div>
-                    <a
-                      href="shop-breadcrumb-img.html"
-                      className="button-main md:mt-8 mt-3"
-                    >
-                      Shop Now
-                    </a>
-                  </div>
-                  <div className="sub-img absolute sm:w-1/2 w-3/5 2xl:-right-[60px] -right-[16px] bottom-0">
-                    <Image
-                      src={"/assets/images/slider/bg1-1.png"}
-                      alt="bg1-1"
-                      width={1000}
-                      height={1}
-                      className="h-full w-full"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="h-full">
-            <div className="h-full ">
-              <div className="slider-item h-full w-full relative ">
-                <div className="container w-full h-full flex items-center relative ">
-                  <div className="text-content basis-1/2">
-                    <div className="text-sub-display">Sale! Up To 50% Off!</div>
-                    <div className="text-display md:mt-5 mt-2">
-                      Summer Sale Collections
-                    </div>
-                    <a
-                      href="shop-breadcrumb-img.html"
-                      className="button-main md:mt-8 mt-3"
-                    >
-                      Shop Now
-                    </a>
-                  </div>
-                  <div className="sub-img absolute sm:w-1/2 w-3/5 2xl:-right-[60px] -right-[16px] bottom-0">
-                    <Image
-                      src={"/assets/images/slider/bg1-1.png"}
-                      alt="bg1-1"
-                      width={1000}
-                      height={1}
-                      className="h-full w-full"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
       
     </div>
   );
