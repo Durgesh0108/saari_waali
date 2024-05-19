@@ -8,6 +8,42 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import Image from "next/image";
 import React from "react";
 
+const data = {
+	slides: [
+		{
+			textSubDisplay: "Sale! Up To 50% Off!",
+			textDisplay: "Summer Sale Collections",
+			href: "shop-breadcrumb-img.html",
+			buttonText: "Shop Now",
+			imgSrc: "/assets/images/slider/bg1-1.png",
+			altText: "bg1-1",
+			width: 1000,
+			height: 1,
+		},
+		{
+			textSubDisplay: "Sale! Up To 50% Off!",
+			textDisplay: "Fashion for Every Occasion",
+			href: "shop-breadcrumb-img.html",
+			buttonText: "Shop Now",
+			imgSrc: "/assets/images/slider/bg1-2.png",
+			altText: "bg1-1",
+			width: 1000,
+			height: 1,
+		},
+		{
+			textSubDisplay: "Sale! Up To 50% Off!",
+			textDisplay: "Stylish Looks for Any Season",
+			href: "shop-breadcrumb-img.html",
+			buttonText: "Shop Now",
+			imgSrc: "/assets/images/slider/bg1-3.png",
+			altText: "bg1-1",
+			width: 1000,
+			height: 1,
+		},
+	],
+};
+
+
 const Slider = () => {
   return (
     <div className=" slider-block  style-one bg-linear xl:h-[860px] lg:h-[800px] md:h-[580px] sm:h-[500px] h-[350px] max-[420px]:h-[320px] w-full ">
