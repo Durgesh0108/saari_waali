@@ -8,7 +8,6 @@ import Logoslider from "@/Components/Logoslider";
 import Navbar from "@/Components/Navbar";
 import Servicesection from "@/Components/Servicesection";
 import Slider from "@/Components/Slider";
-import TabSection from "@/Components/TabSection";
 import Tabsectionpart2 from "@/Components/Tabsectionpart2";
 import Testimonials from "@/Components/Testimonials";
 import Image from "next/image";
@@ -18,7 +17,7 @@ export default function Home() {
     <>
       <div className="">
         <Slider />
-        <TabSection />
+        {/* <TabSection /> */}
         <CollectionBlack />
         <Tabsectionpart2 />
         <Fixedimage />
