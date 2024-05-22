@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  FaCaretUp,
   FaFacebookF,
   FaInstagram,
   FaPinterestP,
@@ -257,6 +258,12 @@ const Footer = () => {
         </div>
       </div>
     </div>
+  //   <Link className="scroll-to-top-btn" href="#top-nav">
+  //   <i className="ph-bold ph-caret-up" />
+  //   <FaCaretUp />
+  
+  // </Link>
+  
   );
 };
 
