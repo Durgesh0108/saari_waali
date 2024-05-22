@@ -9,6 +9,54 @@ import { Instagram } from "lucide-react";
 import { FaInstagram } from "react-icons/fa";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
+const data = {
+	slides: [
+		{
+			href: "https://www.instagram.com/",
+			imgSrc: "assets/images/instagram/0.png",
+			altText: "0",
+			iconClass: "FaInstagram",
+			iconSize: "text-2xl",
+		},
+		{
+			href: "https://www.instagram.com/",
+			imgSrc: "assets/images/instagram/1.png",
+			altText: "1",
+			iconClass: "FaInstagram",
+			iconSize: "text-2xl",
+		},
+		{
+			href: "https://www.instagram.com/",
+			imgSrc: "assets/images/instagram/2.png",
+			altText: "2",
+			iconClass: "FaInstagram",
+			iconSize: "text-2xl",
+		},
+		{
+			href: "https://www.instagram.com/",
+			imgSrc: "assets/images/instagram/3.png",
+			altText: "3",
+			iconClass: "FaInstagram",
+			iconSize: "text-2xl",
+		},
+		{
+			href: "https://www.instagram.com/",
+			imgSrc: "assets/images/instagram/4.png",
+			altText: "4",
+			iconClass: "FaInstagram",
+			iconSize: "text-2xl",
+		},
+		{
+			href: "https://www.instagram.com/",
+			imgSrc: "assets/images/instagram/5.png",
+			altText: "5",
+			iconClass: "FaInstagram",
+			iconSize: "text-2xl",
+		},
+	],
+};
+
+
 const Clientinsta = () => {
   return (
     <div>

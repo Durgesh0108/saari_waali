@@ -7,6 +7,60 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
+const data = {
+	testimonials: [
+		{
+			rating: 5,
+			title: "Variety of Styles!",
+			description:
+				"Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!",
+			name: "Lisa K.",
+			date: "August 13, 2024",
+		},
+		{
+			rating: 5,
+			title: "Variety of Styles!",
+			description:
+				"Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!",
+			name: "Lisa K.",
+			date: "August 13, 2024",
+		},
+		{
+			rating: 5,
+			title: "Quality of Clothing!",
+			description:
+				"Anvouges fashion collection is a game-changer! Their unique and trendy pieces have completely transformed my style. Its comfortable, stylish, and always on-trend.",
+			name: "Elizabeth A.",
+			date: "August 13, 2024",
+		},
+		{
+			rating: 5,
+			title: "Customer Service!",
+			description:
+				"I absolutely love this shop! The products are high-quality and the customer service is excellent. I always leave with exactly what I need and a smile on my face.",
+			name: "Christin H.",
+			date: "August 13, 2024",
+		},
+		{
+			rating: 5,
+			title: "Quality of Clothing!",
+			description:
+				"I cant get enough of Anvouges high-quality clothing. Its comfortable, stylish, and always on-trend. The products are high-quality and the customer service is excellent.",
+			name: "Emily G.",
+			date: "August 13, 2024",
+		},
+		{
+			rating: 5,
+			title: "Customer Service!",
+			description:
+				"I love this shop! The products are always top-quality, and the staff is incredibly friendly and helpful. They go out of their way to make sure that Im satisfied my purchase.",
+			name: "Carolina C.",
+			date: "August 13, 2024",
+		},
+	],
+};
+
+
 const Testimonials = () => {
   return (
     <div>
