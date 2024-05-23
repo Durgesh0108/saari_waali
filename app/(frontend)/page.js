@@ -10,6 +10,7 @@ import Servicesection from "@/Components/Servicesection";
 import Slider from "@/Components/Slider";
 import Tabsectionpart2 from "@/Components/Tabsectionpart2";
 import Testimonials from "@/Components/Testimonials";
+import Promise from "@/Components/promise";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,14 +18,17 @@ export default function Home() {
     <>
       <div className="">
         <Slider />
-        {/* <TabSection /> */}
-        <CollectionBlack />
-        <Tabsectionpart2 />
-        <Fixedimage />
-        <Servicesection />
-        <Testimonials />
-        <Clientinsta />
-        <Logoslider />
+        <div className="container">
+          {/* <TabSection /> */}
+          <CollectionBlack />
+          <Tabsectionpart2 />
+          <Promise />
+          <Fixedimage />
+          <Servicesection />
+          <Testimonials />
+          <Clientinsta />
+          <Logoslider />
+        </div>
       </div>
     </>
   );

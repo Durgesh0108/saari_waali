@@ -16,39 +16,31 @@ const data = {
   slides: [
     {
       href: "shop-breadcrumb1.html",
-      imgSrc: "assets/images/collection/swimwear.png",
+      imgSrc: "/assets/images/sarri/Sarees.jpg",
       altText: "swimwear",
-      collectionName: "swimwear",
+      collectionName: "Sarees",
+      heading: "Sarees",
     },
     {
       href: "shop-breadcrumb1.html",
-      imgSrc: "assets/images/collection/top.png",
+      imgSrc: "/assets/images/sarri/kurta.jpg",
       altText: "top",
       collectionName: "top",
+      heading: "Kurta",
     },
     {
       href: "shop-breadcrumb1.html",
-      imgSrc: "assets/images/collection/sets.png",
+      imgSrc: "/assets/images/sarri/kurta-sets.jpg",
       altText: "sets",
       collectionName: "sets",
+      heading: "Kurta Sets",
     },
     {
       href: "shop-breadcrumb1.html",
-      imgSrc: "assets/images/collection/outerwear.png",
+      imgSrc: "/assets/images/sarri/gift.jpg",
       altText: "outerwear",
       collectionName: "outerwear",
-    },
-    {
-      href: "shop-breadcrumb1.html",
-      imgSrc: "assets/images/collection/underwear.png",
-      altText: "underwear",
-      collectionName: "underwear",
-    },
-    {
-      href: "shop-breadcrumb1.html",
-      imgSrc: "/assets/images/collection/t-shirt.png",
-      altText: "t-shirt",
-      collectionName: "t-shirt",
+      heading: "Gifts",
     },
   ],
 };
@@ -56,11 +48,11 @@ const data = {
 export default function CollectionBlack() {
   return (
     <div className="collection-block md:pt-20 pt-10 mb-8">
-      <div className="container">
-        <div className="heading3 text-center">Explore Collections</div>
+      <div className="container px-8">
+        <div className="heading3">Shop By Category</div>
       </div>
-      <div className="list-collection relative section-swiper-navigation md:mt-10 mt-6 sm:px-5 px-4">
-        <div className="swiper-button-prev lg:left-10 left-6" />
+      <div className="list-collection relative section-swiper-navigation md:mt-10 mt-6 sm:px-5 px-4 ">
+        {/* <div className="swiper-button-prev lg:left-10 left-6" /> */}
         <Swiper
           slidesPerView={4}
           spaceBetween={30}
@@ -74,29 +66,36 @@ export default function CollectionBlack() {
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
-          className="w-full h-full"
+          className="w-full h-full p-8"
         >
           {data.slides.map((slide, index) => (
             <SwiperSlide className="h-full" key={index}>
-              <div className="swiper-slide">
-                <a
-                  href={slide.href}
-                  className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer"
-                >
-                  <div className="bg-img">
-                    {/* <Image src={Swimwear} alt="swimwear" /> */}
-                    <img src={slide.imgSrc} alt={slide.altText} />
-                  </div>
-                  <div className="collection-name heading5 text-center sm:bottom-8 bottom-4 lg:w-[200px] md:w-[160px] w-[100px] md:py-3 py-1.5 bg-white rounded-xl duration-500">
-                    {slide.collectionName}
-                  </div>
-                </a>
+              <div
+                className="hover:scale-110 z-50 duration-700 group"
+                key={index}
+              >
+                <div
+                  className="rounded-full w-5 h-5 top-1 left-1 relative"
+                  style={{ backgroundColor: "#C2915E" }}
+                ></div>
+                <div className=" rounded-tl-[100px] rounded-br-2xl  h-72 relative -top-5">
+                  <img
+                    src={slide.imgSrc}
+                    alt={slide.altText}
+                    className="w-full h-full overflow-hidden object-cover  rounded-tl-[100px] rounded-br-2xl"
+                  />
+
+                  {/* <Image src={slide.imgSrc} alt={slide.altText} fill/> */}
+                </div>
+                <div className=" group-hover:scale-110 duration-700 text-[20px]">
+                  {slide.heading}
+                </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        <div className="swiper-button-next lg:right-10 right-6" />
+        {/* <div className="swiper-button-next lg:right-10 right-6" /> */}
       </div>
     </div>
   );
